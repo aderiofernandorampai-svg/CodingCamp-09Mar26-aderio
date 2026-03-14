@@ -1,0 +1,14 @@
+font-family:Arial;
+text-align:center;
+background:#f4f4f4;
+}
+
+button{
+padding:8px;
+margin:5px;
+}
+
+.dark{
+background:#121212;
+color:white;
+}

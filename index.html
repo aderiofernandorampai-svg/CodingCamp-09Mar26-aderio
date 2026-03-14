@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Life Dashboard</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<button id="theme-toggle">🌙 Ubah Tema</button>
+
+<h1 id="greeting"></h1>
+<h2 id="clock"></h2>
+
+<hr>
+
+<h2>Focus Timer</h2>
+
+<h1 id="timer">25:00</h1>
+
+<button onclick="startTimer()">Start</button>
+<button onclick="stopTimer()">Stop</button>
+<button onclick="resetTimer()">Reset</button>
+
+<hr>
+
+<h2>To-Do List</h2>
+
+<input id="taskInput" placeholder="Tambah tugas">
+<button onclick="addTask()">Tambah</button>
+
+<ul id="taskList"></ul>
+
+<hr>
+
+<h2>Quick Links</h2>
+
+<button onclick="openLink('https://google.com')">Google</button>
+<button onclick="openLink('https://gmail.com')">Gmail</button>
+<button onclick="openLink('https://github.com')">GitHub</button>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
